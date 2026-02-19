@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青蓝中文 | QINGLAN Chinese</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #111;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+        }
+
+        header nav a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .hero {
+            height: 90vh;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 80px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 20px;
+            max-width: 600px;
+        }
+
+        .btn {
+            margin-top: 40px;
+            padding: 14px 28px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        section {
+            padding: 100px 80px;
+            background: white;
+            margin-bottom: 2px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+
+        .card {
+            padding: 30px;
+            background: #f1f3f5;
+        }
+
+        footer {
+            padding: 40px 80px;
+            background: #111;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div><strong>青蓝中文</strong> QINGLAN Chinese</div>
+    <nav>
+        <a href="#about">Über uns</a>
+        <a href="#courses">Kurse</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>青蓝中文<br>QINGLAN Chinese</h1>
+    <p>
+        Deutsch-Chinesische Sprachschule in Potsdam.<br>
+        中文学习 · 语言与文化 · 思维与表达
+    </p>
+    <a href="#courses" class="btn">Kurse entdecken</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-title">Über uns · 关于我们</div>
+    <p>
+        青蓝中文是一所面向德国家庭的双语中文学校。<br>
+        我们结合语言训练与文化理解，帮助孩子建立稳定的中文表达能力。
+    </p>
+    <p>
+        Unser Unterricht verbindet systematisches Sprachlernen mit kulturellem Verständnis.
+        Ziel ist langfristige Sprachkompetenz – nicht kurzfristige Prüfungsvorbereitung.
+    </p>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+    <div class="section-title">Kurse · 课程设置</div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Grundschule · 小学阶段</h3>
+            <p>
+                汉字识读 · 拼音体系 · 基础表达<br>
+                Lesen, Schreiben und Sprechen systematisch aufgebaut.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Jugendliche · 青少年</h3>
+            <p>
+                阅读理解 · 议论文表达 · 跨文化讨论<br>
+                Strukturierte Argumentation und Textverständnis.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Erwachsene · 成人课程</h3>
+            <p>
+                商务汉语 · 文化理解 · 日常交流<br>
+                Praktisches Chinesisch für Alltag und Beruf.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section>
+    <div class="section-title">Unser Ansatz · 教学理念</div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Struktur · 结构化</h3>
+            <p>
+                清晰的语言结构与系统训练，避免碎片化学习。
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Verständnis · 理解力</h3>
+            <p>
+                不只是会说，而是能够表达观点、进行讨论。
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Kontinuität · 长期性</h3>
+            <p>
+                语言能力来自长期稳定的积累。
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-title">Kontakt · 联系方式</div>
+
+    <p>
+        Standort: Potsdam<br>
+        E-Mail: info@qinglan-chinese.de
+    </p>
+
+    <a href="mailto:info@qinglan-chinese.de" class="btn">Jetzt kontaktieren</a>
+</section>
+
+<footer>
+    © 2026 青蓝中文 · QINGLAN Chinese<br>
+    Deutsch-Chinesische Sprachschule
+</footer>
+
+</body>
+</html>
